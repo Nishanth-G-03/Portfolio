@@ -1,20 +1,70 @@
-*{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkslategray;
-    
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#555553;
+    background-color:#dddcda;
+    display: relative;
 }
-
-h1,h2{
-    background-color: purple;
-    color: white;
+.header{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
 }
-
-h3{
-    color: brown;
+#logo{
+    display: inline-block;
+    width: 20%;
+   
+}
+.rightheader{
+    display: flex;
+    float: right;
+}
+li{
+  list-style: none;  
+  display: inline-block;
+}
+ul{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    padding:10px 20px;
+    border-radius: 5px;
+}
+#contact{
+    background-color: #DAB4EF;
 }
 
 footer{
+    display: block;
     text-align: center;
-    font-size: 0.80em;
-
 }
+.contentsection{
+    margin-left: 10%;
+}
+.contentsection>h1{
+    color: #5555;
+}
+.contentsection>p{
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: justify;
+    word-spacing: 5px;
+    margin-bottom: 50px;
+}
+.contentsection>a{
+    color:black;
+    background-color:#aaa9a3;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+footer>p{
+    padding: 10px 0px;
+    margin: 20px;
+}
+
+a:hover{
+    border: 1px solid ;
+}
+
+
